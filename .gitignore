@@ -34,3 +34,24 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+
+.git/*
+.gitignore
+
+
+#### jupyter
+*/**/.ipynb_checkpoints/
+
+#### pycharm 
+*/**/.idea/
+
+#### python
+*/**/__pycache__/
+__pycache__/
+
+#### pyspark
+*/spark-warehouse/
+*/metastore_db/
+
+

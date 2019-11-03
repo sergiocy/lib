@@ -1,26 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import os
-import traceback
-
-
-def check_exists_folder_and_create(path_folder):
-    if os.path.isdir(path_folder):
-        print('folder already exists')
-    else:
-        print('folder NOT exists')
-        try:
-            os.mkdir(path_folder)
-            print('folder created')
-        except Exception:
-            traceback.print_exc()
-
-
-
-def remove_file_if_exists(file_path):
-    if os.path.exists(file_path):
-        os.remove(file_path)
 
 
 def create_logger(log_file_path):

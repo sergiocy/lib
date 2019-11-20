@@ -17,10 +17,4 @@ def create_logger(log_file_path):
 
 
     
-    
-
-if __name__ == '__main__':
-
-    print('in module input_processing')
-    
  

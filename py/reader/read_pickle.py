@@ -7,8 +7,6 @@ def read_pickle_file(file):
     return pickle_data
         
 
-if __name__ == '__main__':
 
-    print('in module input_processing')
     
  

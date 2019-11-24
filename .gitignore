@@ -52,4 +52,8 @@ __pycache__/
 */spark-warehouse/
 */metastore_db/
 
+#### C/C++
+*/*.o
+*/*.exe
+
 

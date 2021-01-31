@@ -4,7 +4,7 @@ import os
 
 
 
-def remove_file_if_exists(logger = None, file_path):
+def remove_file_if_exists(file_path, logger = None):
     if os.path.exists(file_path):
         os.remove(file_path)
         if logger is not None:
